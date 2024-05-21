@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F2EEE5;
+    background: linear-gradient(180deg, #ffffff 9.81%, #03202037 73.33%);
+}
+
+header{
+    background-color: #0F383A;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #2b666cb3;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+.menu li{
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#resources:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 10px #2B666C;
+}
+
+#platform:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 10px #2B666C;
+}
+
+#company:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 10px #2B666C; 
+}
+
+#home:hover{
+    transform: scale(1.2);
+    text-shadow: 2px 2px 10px #2B666C; 
+}
+
+.textoFundo{
+    position: absolute;
+    width: 1197px;
+    height: 600px;
+    left: 100px;
+    top: 300px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 400px;
+    line-height: 600px;
+
+
+    background: linear-gradient(180deg, #f2eee555 9.81%, #f2eee554 73.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    z-index: -1;
+}
+
+#backgroundLinguagem{
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 1150px;
+    top: 7px;
+    background: #2B666C;
+    border-radius: 24.5px;
+}
+
+#bandeiraLingua{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 12px;
+    top: 6px;
+}
+
+#linguagemUSA{
+    position: absolute;
+    width: 35px;
+    height: 19px;
+    left: 44px;
+    top: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#perfilUsuario{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1115px;
+    top: 15px;
+}
+
+#meiaLua{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 147px;
+    top: 10px;
+}
+
+#textoLogo{
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    top: 17px;
+    left: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#bolinhaLogo{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 149px;
+    top: 10px;
+}
+
+main h1{
+    color: #0F383A;
+    text-shadow: 1px 1px 3px #2b666c8e;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+main h2{
+    color: rgba(168, 162, 162, 0.51);
+    text-align: center;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.card{
+    display: flex;
+    border: 1px solid rgba(89, 89, 89, 0.274);
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 295px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.249);
+    box-shadow: 2px 2px 7px 0px #0f383a67;
+}
+
+.info{
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.imagemCartao{
+    display: flex;
+    width: 80vh;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 30px;
+    margin-top: 10vh;
+} 
+
+.bandeira{
+    border: 1px solid #2b666c2f;
+    width: 90px;
+    box-shadow: 0.5px 0.5px 2px rgba(89, 89, 89, 0.251);
+    margin-left: 55px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 10px;
+    color: #2B666C;
+    transition: all 0.5s;
+}
+
+.bandeira:hover{
+    background-color: #0F383A;
+    color: #fff;
+    box-shadow: 2px 2px 5px #2b666c7a;
+}
+
+.valorMin{
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    background-color: #0F383A;
+    margin-top: 32px;
+    border-radius: 3px 3px 0px 0px;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.infoValor{
+    font-weight: 500;
+    font-size: 8px;
+}
+
+.nome{
+    color: #2B666C;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.descricao{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0.5px;
+    margin-top: 25px;
+    color:  rgb(148, 144, 144);
+}
+

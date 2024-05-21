@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Page Cartões de Crédito</title>
+</head>
+<body onload="carregarListaECartoes()">
+    <header>
+        <ul class="menu">
+            <li id="platform">Platform</li>
+            <li id="resources">Resources</li>
+            <li id="company">Company</li>
+            <li id="home"><a href="index.html">Home</a></li>
+        </ul>
+        <img src="img/perfil.svg" alt="perfil" id="perfilUsuario">
+        <div id="backgroundLinguagem">
+                <img src="img/usa.svg" alt="bandeira" id="bandeiraLingua">
+                <span id="linguagemUSA">USA</span>
+        </div>
+        <img src="img/bolinha.svg" alt="bolinha" id="bolinhaLogo">
+        <img src="img/meiaLua.svg" alt="meiaLua" id="meiaLua">
+        <span id="textoLogo">Deisuko</span>
+    </header>
+    <main>
+        <h1>Types Of Credit Card</h1>
+        <h2>Desenvolvido por: Ester, Vivian e Valter</h2>
+    </main>
+    <div class="textoFundo">BANK</div>
+    <div id="resultadoDoFiltro"></div>
+    
+    <script src="negocio/classes/Cartao.js"></script>
+    <script src="negocio/classes/Lista.js"></script>
+
+    <script src="negocio/objetos/cartoes.js"></script>
+    <script src="negocio/objetos/listas.js"></script>
+
+    <script src="controlador.js"></script>
+</body>
+</html>

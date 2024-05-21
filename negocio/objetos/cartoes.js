@@ -1,0 +1,10 @@
+let c1 = new Cartao('SBIglobalInternationaldebitcard.jpeg', 'SBI Global International', 'MasterCard', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 1000);
+let c2 = new Cartao('ICICIBankSapphiroInternational.jpeg','ICICI Bank','MasterCard', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 2000);
+let c3 = new Cartao('AxisBankBurgundyDebitCardjpg.jpeg','Axis Bank Burgundy', 'MasterCard', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 3000);
+let c4 = new Cartao('HDFCEasyShopPlatinumDebitCardj.jpeg','HDFC EasyShop Platinum', 'Visa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 4000);
+let c5 = new Cartao('HSBCPremierDebitCard.jpeg','HSBC Premier Platinum','MasterCard','Lorem ipsum dolor sit amet consectetur adipisicing elit.',5000);
+let c6 = new Cartao('YesWorldDebitCardjpg.jpeg','Yes World','MasterCard','Lorem ipsum dolor sit amet consectetur adipisicing elit.', 6000);
+let c7 = new Cartao('cartao-de-credito-nubank.png','Nubank','MasterCard', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 7000);
+let c8 = new Cartao('cartao_visa_gold.png','Bradesco','Visa','Lorem ipsum dolor sit amet consectetur adipisicing elit.', 8000);
+let c9 = new Cartao('credicard.png','Credicard','MasterCard','Lorem ipsum dolor sit amet consectetur adipisicing elit.', 9000);
+let c10 = new Cartao('card-visa-gold-details.png','VisaCard ','Visa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 10000);
